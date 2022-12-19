@@ -1,7 +1,7 @@
 import { meme } from "../data/memeData";
 import { createContext, useContext } from "react";
 import { useState } from "react";
-import {saveAs} from 'file-saver'
+import {saveAs } from 'file-saver'
 
 
 const MemeContext = createContext('')
@@ -29,4 +29,4 @@ const MemeProvider = ({children}) => {
     )
 }
 
-export default MemeProvider
+export default MemeProvider;
